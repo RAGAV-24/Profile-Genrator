@@ -2,8 +2,9 @@ import React from 'react'
 
 const NavBar = () => {
   return (
-    <div>
-      <div className="w-4/4 h-15 bg-black">
+    <div className="">
+    <div className="pl-4 pt-4 pr-4">
+      <div className="w-4/4 h-15 bg-black rounded-3xl">
       <div className="p-3 flex items-center justify-between">
         <p className="w-55 p-1 h-10 rounded-xl text-white font-bold hover:text-green-500  hover:bg-white text-center"> GitHub Readme Generator</p>
 
@@ -15,6 +16,7 @@ const NavBar = () => {
 
       </div>
       </div>
+    </div>
     </div>
   )
 }
